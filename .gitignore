@@ -1,0 +1,18 @@
+# Bytecode
+__pycache__/
+*.py[cod]
+
+# Virtuell miljö
+venv/
+.env/
+.venv/
+
+# OS/Editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Bygg/packaging
+build/
+dist/
+*.egg-info/
