@@ -37,7 +37,7 @@ def center_on_screen(win, w=None, h=None):
     sh = win.winfo_screenheight()
     x = (sw - w) // 2
     y = (sh - h) // 2
-    win.geometry(f"{w}x{h}+{x}+{y}")
+    win.geometry(f"{w}x{h}+{x-100}+{y-100}")
 
 #Initialisering av korten vid spelstart
 def init_draw():
