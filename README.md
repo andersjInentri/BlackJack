@@ -28,20 +28,6 @@ python app.py
   - **Stand**: spelaren stannar; dealern visar dolt kort och drar tills totalen är **minst 17**.
 - **Resultat:** spelet visar vinst/oavgjort/förlust (och bust om >21).
 
-## Vanliga åtgärder i Tkinter (tips)
-- **Pausa utan att frysa GUI:** använd `root.after(ms, func)` i stället för `time.sleep()`.
-- **Enable/disable knapp (ttk):**
-  ```python
-  btn.configure(state="disabled")  # disable
-  btn.configure(state="normal")    # enable
-  ```
-- **Centrera fönstret:**
-  ```python
-  root.update_idletasks()
-  root.eval('tk::PlaceWindow . center')
-  ```
-- **Blanda inte** `pack()` och `grid()` i samma container.
-
 ## Projektstruktur
 ```
 BlackJack/
