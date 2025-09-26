@@ -22,7 +22,7 @@ python app.py
 ## Så här fungerar spelet
 - **Kortlek:** 52 kort skapas som `[färg, valör, vikt]`. Klädda kort (11(J), 12(Q), 13(K) ) väger **10**.
 - **Ess:** räknas först som **11** men sänks till **1** (–10 i total) om handen överstiger 21.
-- **Start:** vid ny omgång dras två kort till dealern (varav ett är dolt med <?, ?>) och två till spelaren.
+- **Start:** vid ny omgång dras två kort till dealern (varav ett är dolt med ?, ?) och två till spelaren.
 - **Spelare (Hit/Stand):**
   - **Hit**: spelaren drar ett nytt kort.
   - **Stand**: spelaren stannar; dealern visar dolt kort och drar tills totalen är **minst 17**.
